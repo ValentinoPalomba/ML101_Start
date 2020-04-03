@@ -13,6 +13,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     @IBOutlet weak var rectSfumato: UIView!
     @IBOutlet weak var sfondoCani: UIImageView!
     
+    @IBOutlet var resultsLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -58,6 +59,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     }
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        
         let image = info[UIImagePickerController.InfoKey.originalImage] as! UIImage
         
         picker.dismiss(animated: true, completion: nil) 
@@ -67,6 +69,9 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         picker.dismiss(animated: true, completion: nil)
     }
     
+    func showResultsLabel(){
+        self.resultsLabel.alpha = 0.0
+    }
 
   
     
