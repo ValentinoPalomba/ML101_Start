@@ -11,11 +11,8 @@
 		6870773F24324586008B067E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6870773E24324586008B067E /* SceneDelegate.swift */; };
 		6870774124324586008B067E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6870774024324586008B067E /* ViewController.swift */; };
 		6870774424324586008B067E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6870774224324586008B067E /* Main.storyboard */; };
-		6870774724324586008B067E /* ML101.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6870774524324586008B067E /* ML101.xcdatamodeld */; };
 		6870774924324589008B067E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6870774824324589008B067E /* Assets.xcassets */; };
 		6870774C24324589008B067E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6870774A24324589008B067E /* LaunchScreen.storyboard */; };
-		687077572432458A008B067E /* ML101Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687077562432458A008B067E /* ML101Tests.swift */; };
-		687077622432458A008B067E /* ML101UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687077612432458A008B067E /* ML101UITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,16 +38,11 @@
 		6870773E24324586008B067E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6870774024324586008B067E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6870774324324586008B067E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6870774624324586008B067E /* ML101.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ML101.xcdatamodel; sourceTree = "<group>"; };
 		6870774824324589008B067E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6870774B24324589008B067E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6870774D24324589008B067E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		687077522432458A008B067E /* ML101Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ML101Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		687077562432458A008B067E /* ML101Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ML101Tests.swift; sourceTree = "<group>"; };
-		687077582432458A008B067E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6870775D2432458A008B067E /* ML101UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ML101UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		687077612432458A008B067E /* ML101UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ML101UITests.swift; sourceTree = "<group>"; };
-		687077632432458A008B067E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				6870773B24324586008B067E /* ML101 */,
-				687077552432458A008B067E /* ML101Tests */,
-				687077602432458A008B067E /* ML101UITests */,
 				6870773A24324586008B067E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,27 +98,8 @@
 				6870774824324589008B067E /* Assets.xcassets */,
 				6870774A24324589008B067E /* LaunchScreen.storyboard */,
 				6870774D24324589008B067E /* Info.plist */,
-				6870774524324586008B067E /* ML101.xcdatamodeld */,
 			);
 			path = ML101;
-			sourceTree = "<group>";
-		};
-		687077552432458A008B067E /* ML101Tests */ = {
-			isa = PBXGroup;
-			children = (
-				687077562432458A008B067E /* ML101Tests.swift */,
-				687077582432458A008B067E /* Info.plist */,
-			);
-			path = ML101Tests;
-			sourceTree = "<group>";
-		};
-		687077602432458A008B067E /* ML101UITests */ = {
-			isa = PBXGroup;
-			children = (
-				687077612432458A008B067E /* ML101UITests.swift */,
-				687077632432458A008B067E /* Info.plist */,
-			);
-			path = ML101UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,7 +234,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6870774124324586008B067E /* ViewController.swift in Sources */,
-				6870774724324586008B067E /* ML101.xcdatamodeld in Sources */,
 				6870773D24324586008B067E /* AppDelegate.swift in Sources */,
 				6870773F24324586008B067E /* SceneDelegate.swift in Sources */,
 			);
@@ -273,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				687077572432458A008B067E /* ML101Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				687077622432458A008B067E /* ML101UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,19 +556,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		6870774524324586008B067E /* ML101.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				6870774624324586008B067E /* ML101.xcdatamodel */,
-			);
-			currentVersion = 6870774624324586008B067E /* ML101.xcdatamodel */;
-			path = ML101.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 6870773124324585008B067E /* Project object */;
 }
