@@ -70,7 +70,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     }
     
     func showResultsLabel(){
-        self.resultsLabel.alpha = 0.0
+        self.resultsLabel.alpha = 1.0
     }
 
   
